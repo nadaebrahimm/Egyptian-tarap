@@ -1,0 +1,559 @@
+body {
+    background-color: black; /* Black background for the entire website */
+    color: white;
+    padding-top: 120px;  /* Default font color white */
+}
+/* Fix the navbar at the top of the page */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure navbar is above other elements */
+    background-color: #333; /* Optional: Adjust background color */
+}
+
+/* Add padding to the body to avoid content hiding behind the navbar */
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+    color: purple; /* Purple font for headings and paragraphs */
+}
+
+/* For the audio player controls, you can adjust styles here */
+audio {
+    background-color: purple; /* Optional: Customize audio player background */
+    color: white; /* Optional: Customize audio player text color */
+}
+
+
+.navbar {
+    background-color: black; /* Navbar background */
+}
+
+.navbar .nav-link {
+    color: purple; /* Navbar links in purple */
+}
+
+.navbar .nav-link.active {
+    color: white; /* Active link color */
+}
+
+/* Other styles can be adjusted similarly based on your design */
+
+.navbar{
+    background-color: black;
+    
+}
+.navbar-nav .nav-link {
+    color: purple !important; /* This sets the text color to purple */
+}
+
+.navbar-nav .nav-link:hover {
+    color: darkviolet !important; /* Optional: A darker shade on hover */
+}
+/* Neon-style search bar */
+.search-bar {
+    background-color: #1c1c1e;
+    border: 2px solid #8e44ad;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 300px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 0.6);
+}
+
+.search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(142, 68, 173, 1), 0 0 30px rgba(142, 68, 173, 0.8);
+}
+
+.search-bar::placeholder {
+    color: #d3c4e3;
+    font-style: italic;
+}
+
+/* Neon-style search button */
+.search-btn {
+    background-color: #8e44ad;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 0.8);
+}
+
+.search-btn:hover {
+    background-color: #a34dbb;
+    box-shadow: 0 0 15px rgba(142, 68, 173, 1);
+}
+
+/* Login and Sign-Up buttons */
+.login-btn, .signup-btn {
+    background-color: transparent;
+    color: #8e44ad;
+    border: 2px solid #8e44ad;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color: #8e44ad;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(142, 68, 173, 1);
+}
+
+  
+  /* Overlay */
+  .carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay, adjust transparency as needed */
+    z-index: 1;
+  }
+  
+ 
+  
+  /* Set font color to white */
+.carousel-caption h2, .carousel-caption p, .navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Set button colors */
+.btn-primary, .btn-success {
+    background-color: #800080; /* Purple color */
+    border-color: #800080; /* Optional: match border color */
+    color: white;
+}
+
+.btn-outline-light {
+    color: #800080; /* Purple color for outline buttons */
+    border-color: #800080;
+}
+
+/* Hover effect for button */
+.btn-primary:hover, .btn-success:hover, .btn-outline-light:hover {
+    background-color: #4b004b; /* Darker purple for hover effect */
+    border-color: #4b004b;
+    color: white;
+}
+
+.carousel-indicators {
+    bottom: 35%;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+.carousel-indicators [data-bs-target]{
+width: 8px ;
+height: 8px;
+}
+.carousel-caption{
+bottom: 35%;
+}
+.timeless-classics {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for contrast */
+    padding: 60px 0; /* Adequate padding for top and bottom */
+}
+
+.timeless-classics .title {
+    font-size: 2.5rem; /* Adjust title font size */
+
+}
+
+.timeless-classics p {
+    font-size: 1.2rem; /* Adjust paragraph font size */
+    color:white; /* Softer gray for description text */
+}
+.timeless-classics h2{
+    font-size: 1.5rem; /* Adjust paragraph font size */
+    color:white; 
+}
+.track-img {
+    width: 100%;
+    height: 200px;  /* Set a fixed height */
+    object-fit: cover;  /* Ensure images maintain aspect ratio and cover the container */
+}
+/* Scroll Container */
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 0 50px; /* Space for the navigation buttons */
+}
+
+.track-item {
+    flex: 0 0 300px; /* Adjust width of each track item */
+    margin: 0 15px;
+    position: relative;
+}
+
+.track-info {
+    text-align: center;
+}
+
+/* Navigation Buttons */
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}
+
+/* Styling for the Previous and Next buttons */
+.nav-btn {
+    color: rgb(167, 4, 167);
+    opacity: 40%;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: rgb(37, 0, 37); /* Darker shade of purple on hover */
+}
+
+
+/* Styling the parent container */
+.parent {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.parent img {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.3s ease; /* Subtle transition for image */
+}
+
+.child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    color: #fff;
+    opacity: 0; /* Hide content by default */
+    transition: opacity 0.3s ease; /* Add fade-in effect */
+}
+
+/* Show content on hover */
+.parent:hover .child {
+    opacity: 1;
+ /* Make content visible */
+}
+
+.music-icon {
+    font-size: 24px;
+  
+    margin-bottom: 5px; /* Small space below the icon */
+}
+
+.audio-icon {
+    font-size: 40px; /* Increase icon size */
+
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: inline-block; /* Make it inline for better positioning */
+    margin-top: 10px; /* Space between title and audio icon */
+}
+
+.hidden {
+    display: none; /* Hide the audio element */
+}
+
+.title{
+    position: relative;
+}
+ 
+.title::before {
+        content: "";
+        background-color: white;
+        width: 70px;
+        height: 2px;
+        top: 55%;
+        left: -75px;
+        position: absolute;
+    }
+    .title span::before {
+        content: "";
+        background-color: white;
+        width: 40px;
+        height: 2px;
+        top: 35%;
+        left: -45px;
+        position: absolute;
+    }
+    .title span::after {
+        content: "";
+        background-color: white;
+        width: 40px;
+        height: 2px;
+        top: 35%;
+        right: -45px;
+        position: absolute;
+    }
+    .title::after {
+        content: "";
+        background-color:white;
+        width: 70px;
+        height: 2px;
+        top: 55%;
+        right: -75px; 
+        position: absolute;
+    }
+    .icons{
+        position: relative;
+
+
+    }
+   @media (min-width: 768px){
+    .icons{
+        top: 20px;
+        left: -20px;
+        position: absolute;
+        
+    }
+   }
+
+  
+   .parent2 h6 {
+    color: #2c80fe;
+}
+
+.child2 {
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 80px;
+    bottom: 0%;
+}
+
+.child2 p {
+    transition: all 0.5s;
+    transform: scaleX(0);
+}
+
+.child2 .smd {
+    transition: all 0.5s;
+    transform: scaleX(0);
+}
+
+.parent2:hover .child2 {
+    height: 200px;
+}
+
+.parent2:hover .child2 p {
+    transform: scaleX(1);
+}
+
+.parent2:hover .child2 div {
+    transform: scaleX(1);
+}
+
+/* Additional styles for the title and description */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-center p {
+    font-size: 1.1rem;
+    color: #555; /* Adjusted color for description */
+}
+.Artists img {
+    width: 100%; /* Makes sure the image fits within the container */
+    height: 250px; /* Ensures all images have the same height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the container without distortion */
+    border-radius: 10px; /* Optional: rounds the corners of the images */
+}
+
+.parent2 {
+    position: relative;
+    margin-bottom: 20px; /* Adds spacing between the columns */
+}
+
+.child2 {
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 80px;
+    bottom: 0%;
+}
+
+.child2 p {
+    transition: all 0.5s;
+    transform: scaleX(0);
+}
+
+.parent2:hover .child2 {
+    height: 200px;
+}
+
+.parent2:hover .child2 p {
+    transform: scaleX(1);
+}
+
+.parent2:hover .child2 div {
+    transform: scaleX(1);
+}
+/* General Text Color */
+.Artists h1, .Artists h4, .Artists h6 {
+    color: white; 
+}
+
+/* Title Text Color */
+.Artists .title span {
+    color: purple; 
+}
+.child2 h6{
+color: purple;
+}
+.child2 p{
+    color: white;
+}
+
+/* Section Image Styling */
+.Artists .parent2 img {
+    width: 100%; /* Ensures all images are the same size */
+    height: 250px; /* Ensures uniform height */
+    object-fit: cover; /* Maintains image aspect ratio */
+     
+}
+
+/* Hover effects for child2 section */
+.Artists .parent2:hover .child2 {
+    height: 200px;
+}
+
+.Artists .parent2:hover .child2 p {
+    transform: scaleX(1);
+}
+
+.Artists .parent2:hover .child2 div {
+    transform: scaleX(1);
+}
+
+/* Child2 section styling */
+.Artists .child2 {
+    text-align: center;
+    background-color: transparent; /* Makes the background transparent */
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 80px;
+    bottom: 0%;
+}
+
+/* Style for the links */
+.Artists .child2 p a {
+    color:white; 
+    text-decoration: none; 
+}
+
+/* Hover effect for the link */
+.Artists .child2 p a:hover {
+    color: purple;
+    text-decoration: underline; /* Adds an underline when hovering over the link */
+}
+.genre-item {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.genre-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.genre-item .genre-image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures images maintain aspect ratio and fill the defined height */
+    border-radius: 8px; /* Optional: add rounded corners if desired */
+}
+.contact-us {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-us h1,
+.contact-us p,
+.contact-us .form-label,
+.contact-us h5 {
+    color: #fff;
+}
+
+.contact-us .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.contact-us .form-control::placeholder {
+    color: #aaa;
+}
+
+.contact-us .btn-primary {
+    background-color: #6a1b9a;
+    border: none;
+    color: #fff;
+}
+
+.feedback-section h2 {
+    color: #ffdd57;
+}
+
+.rating-icons i {
+    font-size: 32px;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating-icons i.active {
+    color: #ffdd57;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #6a1b9a;
+}
+
+.social-icons i:hover {
+    color: #fff;
+}
