@@ -1,59 +1,59 @@
 body {
-    background-color: black; /* Black background for the entire website */
+    background-color: black; 
     color: white;
-    padding-top: 120px;  /* Default font color white */
+    padding-top: 120px; 
 }
-/* Fix the navbar at the top of the page */
+
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensure navbar is above other elements */
-    background-color: #333; /* Optional: Adjust background color */
+    z-index: 1000; 
+    background-color: #333; 
 }
 
-/* Add padding to the body to avoid content hiding behind the navbar */
+
 
 
 
 h1, h2, h3, h4, h5, h6, p {
-    color: purple; /* Purple font for headings and paragraphs */
+    color: purple; 
 }
 
-/* For the audio player controls, you can adjust styles here */
+
 audio {
-    background-color: purple; /* Optional: Customize audio player background */
-    color: white; /* Optional: Customize audio player text color */
+    background-color: purple; 
+    color: white; 
 }
 
 
 .navbar {
-    background-color: black; /* Navbar background */
+    background-color: black; 
 }
 
 .navbar .nav-link {
-    color: purple; /* Navbar links in purple */
+    color: purple; 
 }
 
 .navbar .nav-link.active {
-    color: white; /* Active link color */
+    color: white; 
 }
 
-/* Other styles can be adjusted similarly based on your design */
+
 
 .navbar{
     background-color: black;
     
 }
 .navbar-nav .nav-link {
-    color: purple !important; /* This sets the text color to purple */
+    color: purple !important; 
 }
 
 .navbar-nav .nav-link:hover {
-    color: darkviolet !important; /* Optional: A darker shade on hover */
+    color: darkviolet !important; 
 }
-/* Neon-style search bar */
+
 .search-bar {
     background-color: #1c1c1e;
     border: 2px solid #8e44ad;
@@ -75,7 +75,7 @@ audio {
     font-style: italic;
 }
 
-/* Neon-style search button */
+
 .search-btn {
     background-color: #8e44ad;
     color: #ffffff;
@@ -91,7 +91,6 @@ audio {
     box-shadow: 0 0 15px rgba(142, 68, 173, 1);
 }
 
-/* Login and Sign-Up buttons */
 .login-btn, .signup-btn {
     background-color: transparent;
     color: #8e44ad;
@@ -110,39 +109,39 @@ audio {
 }
 
   
-  /* Overlay */
+ 
   .carousel-item .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay, adjust transparency as needed */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1;
   }
   
  
   
-  /* Set font color to white */
+ 
 .carousel-caption h2, .carousel-caption p, .navbar-nav .nav-link {
     color: white !important;
 }
 
-/* Set button colors */
+
 .btn-primary, .btn-success {
-    background-color: #800080; /* Purple color */
-    border-color: #800080; /* Optional: match border color */
+    background-color: #800080; 
+    border-color: #800080; 
     color: white;
 }
 
 .btn-outline-light {
-    color: #800080; /* Purple color for outline buttons */
+    color: #800080; 
     border-color: #800080;
 }
 
-/* Hover effect for button */
+
 .btn-primary:hover, .btn-success:hover, .btn-outline-light:hover {
-    background-color: #4b004b; /* Darker purple for hover effect */
+    background-color: #4b004b; 
     border-color: #4b004b;
     color: white;
 }
@@ -162,44 +161,34 @@ height: 8px;
 bottom: 35%;
 }
 .timeless-classics {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text color for contrast */
-    padding: 60px 0; /* Adequate padding for top and bottom */
+    background-color: #000; 
+    color: #fff; 
+    padding: 60px 0; 
 }
 
 .timeless-classics .title {
-    font-size: 2.5rem; /* Adjust title font size */
+    font-size: 2.5rem; 
 
 }
 
 .timeless-classics p {
-    font-size: 1.2rem; /* Adjust paragraph font size */
-    color:white; /* Softer gray for description text */
+    font-size: 1.2rem; 
+    color:white; 
 }
 .timeless-classics h2{
-    font-size: 1.5rem; /* Adjust paragraph font size */
+    font-size: 1.5rem; 
     color:white; 
 }
 .track-img {
     width: 100%;
-    height: 200px;  /* Set a fixed height */
-    object-fit: cover;  /* Ensure images maintain aspect ratio and cover the container */
-}
-/* Scroll Container */
-.scroll-container {
-    position: relative;
-    overflow: hidden;
-}
+    height: 200px;  
+    object-fit: cover; 
+} 
 
-.scroll-content {
-    display: flex;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding: 0 50px; /* Space for the navigation buttons */
-}
+
 
 .track-item {
-    flex: 0 0 300px; /* Adjust width of each track item */
+    flex: 0 0 300px; 
     margin: 0 15px;
     position: relative;
 }
@@ -208,28 +197,7 @@ bottom: 35%;
     text-align: center;
 }
 
-/* Navigation Buttons */
-.scroll-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: #fff;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.5rem;
-}
 
-.left-btn {
-    left: 0;
-}
-
-.right-btn {
-    right: 0;
-}
-
-/* Styling for the Previous and Next buttons */
 .nav-btn {
     color: rgb(167, 4, 167);
     opacity: 40%;
@@ -241,11 +209,11 @@ bottom: 35%;
 }
 
 .nav-btn:hover {
-    background-color: rgb(37, 0, 37); /* Darker shade of purple on hover */
+    background-color: rgb(37, 0, 37);
 }
 
 
-/* Styling the parent container */
+
 .parent {
     position: relative;
     overflow: hidden;
@@ -255,7 +223,7 @@ bottom: 35%;
 .parent img {
     width: 100%;
     border-radius: 10px;
-    transition: opacity 0.3s ease; /* Subtle transition for image */
+    transition: opacity 0.3s ease; 
 }
 
 .child {
@@ -265,32 +233,32 @@ bottom: 35%;
     right: 0;
     padding: 15px;
     color: #fff;
-    opacity: 0; /* Hide content by default */
-    transition: opacity 0.3s ease; /* Add fade-in effect */
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
 }
 
-/* Show content on hover */
+
 .parent:hover .child {
     opacity: 1;
- /* Make content visible */
+
 }
 
 .music-icon {
     font-size: 24px;
   
-    margin-bottom: 5px; /* Small space below the icon */
+    margin-bottom: 5px; 
 }
 
 .audio-icon {
-    font-size: 40px; /* Increase icon size */
+    font-size: 40px; 
 
-    cursor: pointer; /* Change cursor to pointer on hover */
-    display: inline-block; /* Make it inline for better positioning */
-    margin-top: 10px; /* Space between title and audio icon */
+    cursor: pointer; 
+    display: inline-block; 
+    margin-top: 10px; 
 }
 
 .hidden {
-    display: none; /* Hide the audio element */
+    display: none; 
 }
 
 .title{
@@ -383,7 +351,6 @@ bottom: 35%;
     transform: scaleX(1);
 }
 
-/* Additional styles for the title and description */
 .title {
     font-size: 2rem;
     font-weight: bold;
@@ -391,18 +358,18 @@ bottom: 35%;
 
 .text-center p {
     font-size: 1.1rem;
-    color: #555; /* Adjusted color for description */
+    color: #555;
 }
 .Artists img {
-    width: 100%; /* Makes sure the image fits within the container */
-    height: 250px; /* Ensures all images have the same height */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the container without distortion */
-    border-radius: 10px; /* Optional: rounds the corners of the images */
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .parent2 {
     position: relative;
-    margin-bottom: 20px; /* Adds spacing between the columns */
+    margin-bottom: 20px; 
 }
 
 .child2 {
@@ -430,12 +397,12 @@ bottom: 35%;
 .parent2:hover .child2 div {
     transform: scaleX(1);
 }
-/* General Text Color */
+
 .Artists h1, .Artists h4, .Artists h6 {
     color: white; 
 }
 
-/* Title Text Color */
+
 .Artists .title span {
     color: purple; 
 }
@@ -446,15 +413,15 @@ color: purple;
     color: white;
 }
 
-/* Section Image Styling */
+
 .Artists .parent2 img {
-    width: 100%; /* Ensures all images are the same size */
-    height: 250px; /* Ensures uniform height */
-    object-fit: cover; /* Maintains image aspect ratio */
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover;
      
 }
 
-/* Hover effects for child2 section */
+
 .Artists .parent2:hover .child2 {
     height: 200px;
 }
@@ -467,26 +434,26 @@ color: purple;
     transform: scaleX(1);
 }
 
-/* Child2 section styling */
+
 .Artists .child2 {
     text-align: center;
-    background-color: transparent; /* Makes the background transparent */
+    background-color: transparent;
     overflow: hidden;
     transition: all 0.5s;
     height: 80px;
     bottom: 0%;
 }
 
-/* Style for the links */
+
 .Artists .child2 p a {
     color:white; 
     text-decoration: none; 
 }
 
-/* Hover effect for the link */
+
 .Artists .child2 p a:hover {
     color: purple;
-    text-decoration: underline; /* Adds an underline when hovering over the link */
+    text-decoration: underline;
 }
 .genre-item {
     background-color: #fff;
@@ -500,9 +467,9 @@ color: purple;
 }
 .genre-item .genre-image {
     width: 100%;
-    height: 200px; /* Set a fixed height for uniformity */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fill the defined height */
-    border-radius: 8px; /* Optional: add rounded corners if desired */
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
 }
 .contact-us {
     background-color: #000;
