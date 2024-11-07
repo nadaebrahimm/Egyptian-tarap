@@ -3,7 +3,10 @@ body {
     color: white;
     padding-top: 120px; 
 }
-
+h1, h2, h3, h4, h5, h6, p {
+    color: purple; 
+}
+/* navbar section */
 .navbar {
     position: fixed;
     top: 0;
@@ -13,19 +16,6 @@ body {
     background-color: #333; 
 }
 
-
-
-
-
-h1, h2, h3, h4, h5, h6, p {
-    color: purple; 
-}
-
-
-audio {
-    background-color: purple; 
-    color: white; 
-}
 
 
 .navbar {
@@ -52,6 +42,19 @@ audio {
 
 .navbar-nav .nav-link:hover {
     color: darkviolet !important; 
+}
+.nav-btn {
+    color: rgb(167, 4, 167);
+    opacity: 40%;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: rgb(37, 0, 37);
 }
 
 .search-bar {
@@ -108,7 +111,7 @@ audio {
     box-shadow: 0 0 10px rgba(142, 68, 173, 1);
 }
 
-  
+  /* main section */
  
   .carousel-item .overlay {
     position: absolute;
@@ -160,6 +163,7 @@ height: 8px;
 .carousel-caption{
 bottom: 35%;
 }
+/* timeless-classics section */
 .timeless-classics {
     background-color: #000; 
     color: #fff; 
@@ -196,22 +200,6 @@ bottom: 35%;
 .track-info {
     text-align: center;
 }
-
-
-.nav-btn {
-    color: rgb(167, 4, 167);
-    opacity: 40%;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.nav-btn:hover {
-    background-color: rgb(37, 0, 37);
-}
-
 
 
 .parent {
@@ -314,7 +302,7 @@ bottom: 35%;
         
     }
    }
-
+/* .Artists section */
   
    .parent2 h6 {
     color: #2c80fe;
@@ -455,14 +443,15 @@ color: purple;
     color: purple;
     text-decoration: underline;
 }
+/* genres section  */
 .genre-item {
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 8px;
 }
 
 .genre-image {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-radius: 5px;
 }
 .genre-item .genre-image {
@@ -471,6 +460,7 @@ color: purple;
     object-fit: cover; 
     border-radius: 8px; 
 }
+/* contact-us section */
 .contact-us {
     background-color: #000;
     color: #fff;
